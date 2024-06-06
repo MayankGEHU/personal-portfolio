@@ -81,7 +81,7 @@ export const ToggleButton = styled.div`
     }
 `
 export const Divider = styled.div`
-    width: 1.5px;
+    // width: 1.5px;
     background: ${({ theme }) => theme.primary};
 `
 

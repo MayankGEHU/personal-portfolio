@@ -120,17 +120,12 @@ const ContactButton = styled.input`
   font-weight: 600;
 `
 
-
-
 const Contact = () => {
-
-  //hooks
   const [open, setOpen] = React.useState(false);
   const form = useRef();
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_uxwa2kv', 'template_tp06mbr', form.current, 'aDUxA_n3tm-JFeTbG')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -138,9 +133,6 @@ const Contact = () => {
         console.log(error.text);
       });
   }
-
-
-
   return (
     <Container>
       <Wrapper>
@@ -148,8 +140,8 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Your Email" name="user_email" />
+          <ContactInput placeholder="Your Name" name="user_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />

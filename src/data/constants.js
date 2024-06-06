@@ -1,4 +1,4 @@
-import '../images/gehu.jpeg'
+
 export const Bio = {
   name: "Mayank Singh",
   roles: [
@@ -8,6 +8,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/MayankGEHU",
+  LeetCode : "https://leetcode.com/u/mayank__24/",
   // resume:
     // "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
   linkedin: "www.linkedin.com/in/mayank-singh-271ba7288"
@@ -133,7 +134,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "gehu.jpeg",
+    img: "../images/gehu.jpeg",
     school: "Graphic Era Hill University Dehradun",
     date: "Aug 2022 - Aug 2026",
     grade: "Null",

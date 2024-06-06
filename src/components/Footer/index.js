@@ -94,12 +94,11 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="_blank"><LinkedInIcon/></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Mayank Singh. All rights reserved.
         </Copyright>
-
       </FooterWrapper>
     </FooterContainer>
   );
