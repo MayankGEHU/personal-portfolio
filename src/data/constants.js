@@ -75,13 +75,13 @@ export const skills = [
       {
         name: "C++",
         image:
-          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.logo.wine%2Flogo%2FC%252B%252B&psig=AOvVaw3pQzz6tPx9g8EEnjtchuDN&ust=1717406049395000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCICMpJzKvIYDFQAAAAAdAAAAABAE",
+          "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
       },
-      {
-        name: "Java",
-        image:
-          "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F4373217%2Fjava_logo_logos_icon&psig=AOvVaw1u_JezeoePtN5OAHnMF6qD&ust=1717406090976000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKisyLDKvIYDFQAAAAAdAAAAABAE",
-      },
+      // {
+      //   name: "Java",
+      //   image:
+      //     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F4373217%2Fjava_logo_logos_icon&psig=AOvVaw1u_JezeoePtN5OAHnMF6qD&ust=1717406090976000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKisyLDKvIYDFQAAAAAdAAAAABAE",
+      // },
     ],
   },
   {
@@ -90,7 +90,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg",
       },
       {
         name: "GitHub",
@@ -114,7 +114,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "",
+    img: "https://i.pinimg.com/564x/89/0c/25/890c250fe129488a586b1a99e8b68107.jpg",
     role: "Fullstack Developer Intern",
     company: "Infosys",
     date: "March 2024 - june 2024",
@@ -129,12 +129,21 @@ export const experiences = [
     ],
     doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
+  {
+    id: 1,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    role: "Open Source Contributor ",
+    company: "GirlScript Summer of Code",
+    date: "May 2024 - Present",
+    desc: "Contributing to different open-source projects and learn from industry experts",
+    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+  },
 ];
 
 export const education = [
   {
     id: 0,
-    img: "../images/gehu.jpeg",
+    img: "https://i.pinimg.com/474x/1b/73/72/1b7372335c4a73c96910a1375dc9badb.jpg",
     school: "Graphic Era Hill University Dehradun",
     date: "Aug 2022 - Aug 2026",
     grade: "Null",

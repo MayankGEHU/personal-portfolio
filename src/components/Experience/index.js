@@ -72,8 +72,6 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
-
-
 const index = () => {
     return (
         <Container id="experience">
