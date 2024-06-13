@@ -8,9 +8,8 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/MayankGEHU",
-  LeetCode : "https://leetcode.com/u/mayank__24/",
-  resume:
-    "https://drive.google.com/file/d/1etGxhuDOa1ihp1yGUb5rZ3TxuvjYPw3x/view?usp=sharing",
+  // resume:
+  //   "https://drive.google.com/file/d/1EAK6S-2njJZ0lNdtYD1w3HgYIBpGo1LX/view?usp=sharing",
   linkedin: "www.linkedin.com/in/mayank-singh-271ba7288"
 };
 
