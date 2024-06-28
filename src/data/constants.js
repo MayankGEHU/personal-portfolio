@@ -76,11 +76,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
       },
-      // {
-      //   name: "Java",
-      //   image:
-      //     "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F4373217%2Fjava_logo_logos_icon&psig=AOvVaw1u_JezeoePtN5OAHnMF6qD&ust=1717406090976000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKisyLDKvIYDFQAAAAAdAAAAABAE",
-      // },
+      {
+        name: "Java",
+        image:
+          "https://upload.wikimedia.org/wikipedia/de/e/e1/Java-Logo.svg",
+      },
     ],
   },
   {
@@ -165,55 +165,33 @@ export const projects = [
     ],
     category: "c++",
     github: "https://github.com/MayankGEHU/Airport-management",
-    // webapp: "https://trackify.duckdns.org",
   },
-  // {
-  //   id: 0,
-  //   title: "Podstream",
-  //   date: "Apr 2023 - May 2023",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Podstream",
-  //   webapp: "https://podstream.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Rishav Chanda",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: 1,
-  //   title: "Vexa",
-  //   date: "Oct 2022 - Present",
-  //   description:
-  //     "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-  //   tags: [
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //     "NodeMailer",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Project-Management-App",
-  //   webapp: "https://vexa-app.netlify.app/",
-  // },
+  {
+    id: 0,
+    title: "Shoping Web",
+    date: "Apr 2024 - May 2024",
+    description:
+      "Developed a full-stack web application that allows users to add new items in cart.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    tags: ["React Js"],
+    category: "web app",
+    github: "https://github.com/MayankGEHU/Shopping-web",
+  },
+  {
+    id: 1,
+    title: "Internshala Automation",
+    date: "May 2024 - Present",
+    description:
+      "Designed and developed the Internshala Automation project which make the whole process of applying internship at internshala is automatic. ",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    tags: [
+      "javascript"
+    ],
+    category: "web app",
+    github: "https://github.com/MayankGEHU/Internshala_Automation",
+  },
   // {
   //   id: 2,
   //   title: "Brain Tumor Detection",

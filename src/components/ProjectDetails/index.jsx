@@ -180,8 +180,6 @@ const Button = styled.a`
         font-size: 12px;
     }
 `;
-
-
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
     return (
@@ -231,7 +229,6 @@ const index = ({ openModal, setOpenModal }) => {
                     </ButtonGroup>
                 </Wrapper>
             </Container>
-
         </Modal>
     )
 }
